@@ -29,4 +29,110 @@ git commands:
    26  git commit -m"My first commit"
    27  git status
    28  history
+_________________________________________________________
 
+Ansible Commands:
+ 1  cd /opt
+    2  mkdir -p Ansible-Demo
+    3  ll
+    4  cd Ansible-Demo
+    5  ls -ltr
+    6  cd ..
+    7  ll
+    8  pwd
+    9  git clone https://github.com/Sathuri/GitDemo.git
+   10  yum install git
+   11  ls -ltr
+   12  pwd
+   13  ls -ltr
+   14  cd Ansible-Demo
+   15  ls -ltr
+   16  cd
+   17  pwd
+   18  cd -
+   19  ls -ltr
+   20  cd ..
+   21  ls -ltr
+   22  ls -lrt
+   23  git clone https://github.com/Sathuri/GitDemo.git
+   24  ls -ltr
+   25  cd GitDemo
+   26  ll
+   27  cd ..
+   28  yum install tree -y
+   29  tree
+   30  mv Ansible-Demo GitDemo/
+   31  tree
+   32  git status
+   33  yum install git
+   34  git status
+   35  pwd
+   36  ls -ltr
+   37  tree
+   38  git status
+   39  cd GitDemo
+   40  git status
+   41  pwd
+   42  git status
+   43  history
+   44  ll
+   45  cd Ansible-Demo
+   46  ll
+   47  cd /etc/yum/repos.d
+   48  cd /etc/yum.repos.d
+   49  vi ansible.repo
+   50  ll
+   51  yum update -y
+   52  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   53  yum -y install ansible
+   54  ansible --version
+   55  cd /etc/ansible/
+   56  ls -ltr
+   57  pwd
+   58  vi hosts
+   59  ll
+   60  cat hosts
+   61  ll
+   62  cd /root/.ssh
+   63  vi server1.pem
+   64  ll
+   65  cat server1.pem
+   66  ssh -i server1.pem ecs2-user@172.31.23.243
+   67  ll
+   68  chmod 600 server1.pem
+   69  ll
+   70  -rw-------. 1 root root 1671 Feb  2 10:26 server1.pem
+   71  ssh -i server1.pem ecs2-user@172.31.23.243
+   72  ls -ltr
+   73  pwd
+   74  ls -ltr
+   75  ssh -i server1.pem ecs2-user@172.31.23.243
+   76  chmoe 775 server1.pem
+   77  chmod 755 server1.pem
+   78  ll
+   79  ssh -i server1.pem ecs2-user@172.31.23.243
+   80  pwd
+   81  ll
+   82  pwd
+   83  chmod 777 server1.pem
+   84  ssh -i server1.pem ecs2-user@172.31.23.243
+   85  chmod 600 server1.pem
+   86  ll
+   87  ssh -i server1.pem ecs2-user@172.31.23.243
+   88  rm server1.pem
+   89  ll
+   90  vi server1.pem
+   91  ll
+   92  chmod 600 server1.pem
+   93  ll
+   94  ssh -i server1.pem ecs2-user@172.31.23.243
+   95  cat server1.pem
+   96  ssh -i server1.pem ecs2-user@172.31.23.243
+   97  ll
+   98  pwd
+   99  ssh -i server1.pem ec2-user@172.31.23.243
+  100  ansible all -m raw -a 'sudo uptime'
+  101  history -100
+  102  cd /opt/GitDemo
+  103  history -100
+  104  history
