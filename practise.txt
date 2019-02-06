@@ -17,5 +17,35 @@
    17  ll
    18  git init
    19  ll
+   20  histor
+
+
+    1  ll /etc/yum.repos.d/
+    2  cd /etc
+    3  ll
+    4  cat /etc/yum.repos.d/redhat-rhui.repo
+    5  yum install httpd -y
+    6  rpm -qa | grep httpd
+    7  rpm -qa -task | grep httpd
+    8  rpm -qa | grep httpd
+    9  rpm -qa --last | grep httpd
+   10  date
+   11  yum install git -y
+   12  cd /opt
+   13  ll
+   14  mkdir -p /opt/gitdemo
+   15  ll
+   16  cd gitdemo/
+   17  ll
+   18  git init
+   19  ll
    20  history
+   21  vi practise.txt
+   22  ll
+   23  git status
+   24  git add practise.txt
+   25  git status
+   26  git commit -m"My GIT Practise"
+   27  git status
+   28  history
 
