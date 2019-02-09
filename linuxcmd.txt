@@ -136,3 +136,269 @@ Ansible Commands:
   102  cd /opt/GitDemo
   103  history -100
   104  history
+
+    1  cd /opt
+    2  mkdir -p Ansible-Demo
+    3  ll
+    4  cd Ansible-Demo
+    5  ls -ltr
+    6  cd ..
+    7  ll
+    8  pwd
+    9  git clone https://github.com/Sathuri/GitDemo.git
+   10  yum install git
+   11  ls -ltr
+   12  pwd
+   13  ls -ltr
+   14  cd Ansible-Demo
+   15  ls -ltr
+   16  cd
+   17  pwd
+   18  cd -
+   19  ls -ltr
+   20  cd ..
+   21  ls -ltr
+   22  ls -lrt
+   23  git clone https://github.com/Sathuri/GitDemo.git
+   24  ls -ltr
+   25  cd GitDemo
+   26  ll
+   27  cd ..
+   28  yum install tree -y
+   29  tree
+   30  mv Ansible-Demo GitDemo/
+   31  tree
+   32  git status
+   33  yum install git
+   34  git status
+   35  pwd
+   36  ls -ltr
+   37  tree
+   38  git status
+   39  cd GitDemo
+   40  git status
+   41  pwd
+   42  git status
+   43  history
+   44  ll
+   45  cd Ansible-Demo
+   46  ll
+   47  cd /etc/yum/repos.d
+   48  cd /etc/yum.repos.d
+   49  vi ansible.repo
+   50  ll
+   51  yum update -y
+   52  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   53  yum -y install ansible
+   54  ansible --version
+   55  cd /etc/ansible/
+   56  ls -ltr
+   57  pwd
+   58  vi hosts
+   59  ll
+   60  cat hosts
+   61  ll
+   62  cd /root/.ssh
+   63  vi server1.pem
+   64  ll
+   65  cat server1.pem
+   66  ssh -i server1.pem ecs2-user@172.31.23.243
+   67  ll
+   68  chmod 600 server1.pem
+   69  ll
+   70  -rw-------. 1 root root 1671 Feb  2 10:26 server1.pem
+   71  ssh -i server1.pem ecs2-user@172.31.23.243
+   72  ls -ltr
+   73  pwd
+   74  ls -ltr
+   75  ssh -i server1.pem ecs2-user@172.31.23.243
+   76  chmoe 775 server1.pem
+   77  chmod 755 server1.pem
+   78  ll
+   79  ssh -i server1.pem ecs2-user@172.31.23.243
+   80  pwd
+   81  ll
+   82  pwd
+   83  chmod 777 server1.pem
+   84  ssh -i server1.pem ecs2-user@172.31.23.243
+   85  chmod 600 server1.pem
+   86  ll
+   87  ssh -i server1.pem ecs2-user@172.31.23.243
+   88  rm server1.pem
+   89  ll
+   90  vi server1.pem
+   91  ll
+   92  chmod 600 server1.pem
+   93  ll
+   94  ssh -i server1.pem ecs2-user@172.31.23.243
+   95  cat server1.pem
+   96  ssh -i server1.pem ecs2-user@172.31.23.243
+   97  ll
+   98  pwd
+   99  ssh -i server1.pem ec2-user@172.31.23.243
+  100  ansible all -m raw -a 'sudo uptime'
+  101  history -100
+  102  cd /opt/GitDemo
+  103  history -100
+  104  history
+  105  git status
+  106  ll
+  107  vi linuxcmd.txt
+  108  ll
+  109  git add linuxcmd.txt
+  110  git status
+  111  git commit
+  112  ll
+  113  cat linuxcmd.txt
+  114  git commit;
+  115  git commit -m"Ansible Commands"
+  116   git commit -m"My Ansiblecommands"
+  117  git push
+  118  pwd
+  119  cd /opt
+  120  ll
+  121  cd GitDemo/
+  122  ll
+  123  get push
+  124  get add
+  125  pwd
+  126  git push
+  127  ll
+  128  pwd
+  129  cd /opt
+  130  ll
+  131  cd GitDemo
+  132  ll
+  133  cd Ansible-Demo
+  134  ll
+  135  pwd
+  136  cd /opt
+  137  ll
+  138  cd GitDemo
+  139  ll
+  140  cd nsible-Demo
+  141  cd Ansible-Demo
+  142  ll
+  143  vi http.yml
+  144  ll
+  145  pwd
+  146  ll
+  147  ansible-playbook http.yml -vvv
+  148  ll
+  149  ansible-playbook http.yml -v
+  150  ansible-playbook http.yml -vv
+  151  ll
+  152  vi vari.yml
+  153  ll
+  154  cat vari.yml
+  155  ll
+  156  ansible-playbook vari.yml -v
+  157  ll
+  158  vi vari.yml
+  159  ansible-playbook vari.yml -v
+  160  ll
+  161  cat vari.yml
+  162  vi vari.yml
+  163  ll
+  164  ansible-playbook vari.yml -v
+  165  ll
+  166  pwd
+  167  cd /opt
+  168  ll
+  169  cd GitDemo/
+  170  ll
+  171  cd Ansible-Demo/
+  172  ll
+  173  vi andsible_playbook_web_var.yml
+  174  ll
+  175  rm andsible_playbook_web_var.yml
+  176  ll
+  177  cat http.yml
+  178  ll
+  179  cat vari.yml
+  180  ll
+  181  cat vari.yml
+  182  vi web_var.yml
+  183  l
+  184  ll
+  185  cat http.yml
+  186  cat vari.yml
+  187  ll
+  188  vi web_var.yml
+  189  ll
+  190  vi  vari.yml
+  191  ll
+  192  ansible-playbook vari.yml -v
+  193  pwd
+  194  ll
+  195  cat http.yml
+  196  ll
+  197  cat vari.yml
+  198  ll
+  199  ansible-playbook vari.yml -v
+  200  ll
+  201  cat vari.yml
+  202  vi vari.yml
+  203  rm vari.yml
+  204  ll
+  205  vi vari.yml
+  206  ansible-playbook vari.yml -v
+  207  vi vari.yml
+  208  ansible-playbook vari.yml -v
+  209  ll
+  210  rm vari.yml
+  211  ll
+  212  vi vari.yml
+  213  ll
+  214  vi vari.yml
+  215  ansible-playbook vari.yml -v
+  216  ansible-playbook vari.yml -vvv
+  217  pwd
+  218  ll
+  219  cat vari.yml
+  220  ll
+  221  vi vari.yml
+  222  ll
+  223  vi loopdemo.yml
+  224  ll
+  225  ansible-playbook loopdemo.yml
+  226  vi loopdemo.yml
+  227  ansible-playbook loopdemo.yml
+  228  ansible-playbook loopdemo.yml -vvv
+  229  vi loo
+  230  ll
+  231  vi loopdemo.yml
+  232  ll
+  233  cat /etc/ansible/hosts
+  234  ansible-playbook loopdemo.yml -vvv
+  235  ll
+  236  vi loopdemo.yml
+  237  ansible-playbook loopdemo.yml -vvv
+  238  pwd
+  239  vi common_list.yml
+  240  vi listdemo.yml
+  241  ll
+  242  vi listdemo.yml
+  243  ll
+  244  vi  common_list.yml
+  245  vi listdemo.yml
+  246  ansible-playbook listdemo.yml
+  247  vi listdemo.yml
+  248  ansible-playbook listdemo.yml
+  249  vi  common_list.yml
+  250  ansible-playbook listdemo.yml
+  251  ll
+  252  ansible-playbook listdemo.yml
+  253  vi  common_list.yml
+  254  ansible-playbook listdemo.yml
+  255  ansible-playbook listdemo.yml -vvv
+  256  ll
+  257  vi  common_list.yml
+  258  vi listdemo.yml
+  259  vi  common_list.yml
+  260  ll
+  261  ansible-playbook listdemo.yml -vvv
+  262  pwd
+  263  cd ..
+  264  ll
+  265  history
